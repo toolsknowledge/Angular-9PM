@@ -55,20 +55,157 @@
 */
 
 
-class class_one{
-    constructor(public arg1:any){}
-};
-class class_two{
-    public myFun():string{
-        return "Hello";
+/*
+    class class_one{
+        constructor(public arg1:any){}
+    };
+    class class_two{
+        public myFun():string{
+            return "Hello";
+        }
     }
-}
 
-let obj1 = new class_two();
-let obj:class_one = new class_one( obj1 );
-console.log(
-    obj.arg1.myFun()
-);      //Hello
+    let obj1 = new class_two();
+    let obj:class_one = new class_one( obj1 );
+    console.log(
+        obj.arg1.myFun()
+    );      //Hello
+*/
+
+
+
+/*
+    //single level inheritance
+    class class_one{
+        public fun_one():any{
+            return "Hello_1";
+        }
+    };
+    class class_two extends class_one{
+        public fun_two():any{
+            return "Hello_2";
+        }
+    }
+    let obj1:class_one = new class_one();
+    console.log( obj1.fun_one() );
+
+    let obj2:class_two = new class_two();
+    console.log( obj2.fun_one(), obj2.fun_two() );
+*/
+
+
+/*
+    //multi level inheritance
+    class class_one{
+        public var_one:string = "Hello_1";
+    }
+
+    class class_two extends class_one{
+        public var_two:string = "Hello_2";
+    }
+
+    class class_three extends class_two{
+        public var_three:string = "Hello_3";
+    }
+
+    let obj1:class_one = new class_one();
+    console.log( obj1.var_one );
+
+    let obj2:class_two = new class_two();
+    console.log( obj2.var_one, obj2.var_two );
+
+    let obj3:class_three = new class_three();
+    console.log( obj3.var_one, obj3.var_two, obj3.var_three );
+*/
+
+
+/*
+    class Parent{
+        arg1:any;
+        constructor(param1:any){
+            this.arg1 = param1;
+        }
+    }
+
+    class Child extends Parent{
+        arg2:any;
+        constructor(param1:any,param2:any){
+            super(param1);
+            this.arg2 = param2;
+        }
+    }
+
+    class Subchild extends Child{
+        arg3:any;
+        constructor(param1:any,param2:any,param3:any){
+            super(param1,param2);
+            this.arg3 = param3;
+        }
+    }
+    let obj:Subchild = new Subchild("Hello_1","Hello_2","Hello_3");
+    console.log( obj.arg1, obj.arg2, obj.arg3 );
+*/
+
+
+/*
+    class Parent1{}
+
+    class Parent2{}
+
+    class Child extends Parent1,Parent2{}
+    //multiple inheritance not supported by classes in typescript
+*/
+
+
+class Parent{}
+
+class Child1 extends Parent{}
+
+class Child2 extends Parent{}
+
+class Child3 extends Parent{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
