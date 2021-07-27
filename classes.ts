@@ -157,6 +157,7 @@
 */
 
 
+/*
 class Parent{}
 
 class Child1 extends Parent{}
@@ -164,6 +165,36 @@ class Child1 extends Parent{}
 class Child2 extends Parent{}
 
 class Child3 extends Parent{}
+*/
+
+
+/*
+    //hybrid inheritance not suooprted by typescript
+    class Parent{}
+
+    class Child1 extends Parent{}
+
+    class Child2 extends Parent{}
+
+    class Subchild extends Child1,Child2{}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
