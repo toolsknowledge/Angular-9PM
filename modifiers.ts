@@ -156,32 +156,170 @@
 //5) type
 
 
+/*
+    //type
+    type my_name = string;
+    let var_one:my_name = "Hello";
+    console.log( var_one );             //Hello
 
-//type
-type my_name = string;
-let var_one:my_name = "Hello";
-console.log( var_one );             //Hello
+
+    type x = string | number | boolean;
+    function fun_one(arg1:x):void{
+        console.log( arg1 );
+    }
+    fun_one("Hello");
+    fun_one(100);
+    fun_one(true);
+    //fun_one([]);
+    //Argument of type 'undefined[]' is not assignable to parameter of type 'x'.
 
 
-type x = string | number | boolean;
-function fun_one(arg1:x):void{
-    console.log( arg1 );
+    type subjects = "Angular12" | "NodeJS" | "ReactJS" | "VueJS" | "MongoDB";
+    function fun_two(sub:subjects):void{
+        console.log( sub );
+    }
+    fun_two("Angular12");
+    fun_two("MongoDB");
+    //fun_two("Cyber Secuirity");
+    //Argument of type '"Cyber Secuirity"' is not assignable to parameter of type 'subjects'.
+*/
+
+
+
+//static
+//static members, we can access by using class names
+//static members, we can't access by using class objects
+//we can't initilize static members by using constructor
+
+
+/*
+    class class_one{
+        static var_one:string;
+        constructor(){
+            this.var_one = "Hello";
+        }
+    }
+    //Property 'var_one' does not exist on type 'class_one'. Did you mean to access the static member 'class_one.var_one' instead?
+*/
+
+
+/*
+    class class_one{
+        static var_one:any = "Hello_1";
+        static fun_one():any{
+            return "Hello_2";
+        }
+    }
+    console.log(
+        class_one.var_one,
+        class_one.fun_one()
+    );
+    //Hello_1 Hello_2
+*/
+
+
+/*
+    class class_one{
+        static var_one:any = "Hello";
+    }
+    let obj:class_one = new class_one();
+    console.log( obj.var_one );
+    //Property 'var_one' does not exist on type 'class_one'. Did you mean to access the static member 'class_one.var_one' instead?
+*/
+
+
+/*
+class class_one{
+    public fun_one():any{
+        return "Hello";
+    }
+    private constructor(){}
+    static fun_two():any{
+        return new class_one();
+    }
 }
-fun_one("Hello");
-fun_one(100);
-fun_one(true);
-//fun_one([]);
-//Argument of type 'undefined[]' is not assignable to parameter of type 'x'.
+console.log(
+    class_one.fun_two().fun_one()
+);      //Hello
+*/
 
 
-type subjects = "Angular12" | "NodeJS" | "ReactJS" | "VueJS" | "MongoDB";
-function fun_two(sub:subjects):void{
-    console.log( sub );
-}
-fun_two("Angular12");
-fun_two("MongoDB");
-//fun_two("Cyber Secuirity");
-//Argument of type '"Cyber Secuirity"' is not assignable to parameter of type 'subjects'.
+//readonly
+//we can only read the data, but we can't modify the data
+class class_one{
+    readonly var_one:string;
+    constructor(){
+        this.var_one = "Hello";
+    }
+};
+console.log( new class_one().var_one );         //Hello
+//new class_one().var_one = "welcome";            //Cannot assign to 'var_one' because it is a read-only property.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
