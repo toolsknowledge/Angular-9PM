@@ -1,0 +1,189 @@
+1) Introduction to Angular
+
+    => what is Angular
+
+    => Advantages / Disadvantages Angular
+
+    => AngularJS / Angular2.....12 / ReactJS / VueJS / NodeJS
+
+
+2) Installation of Angular12
+
+
+3) Components in Angular
+
+
+4) Communication Between Components
+
+        => @Input()
+
+        => @Output()
+
+        => @ViewChild()     @ViewChildren()
+
+
+5) Single Page Applications
+
+    => Routing
+
+    => Routing Guards
+
+            1) CanActivate
+
+            2) CanDeactivate
+
+            3) CanActivateChild
+
+            4) CanLoad
+
+    => Lazy Loading (improve application performance) 
+
+
+6) MEAN Stack Development
+
+    M - MongoDB
+
+    E - ExpressJS    => GET, POST, PUT, DELETE
+
+    A -  Angular
+
+    N - NodeJS
+
+7) Spring Boot Intrgration
+
+
+8) Asynchronous Calls
+
+        RxJS      
+
+
+9) State Management in Angular
+
+        NgRx
+
+
+10) Forms with Validations
+
+    => Template Driven Forms
+
+    => Model Driven Forms / Reactive Forms
+
+
+11) Directives
+
+    => Predefined Directives
+
+    => Custom Directives
+
+
+12) Pipes
+
+    => Predefined Pipes
+
+    => Custom Pipes
+
+
+13) Two way Data Binding / interpolation
+
+        => property Binding
+
+        => event Binding
+
+        
+
+
+14) Project
+
+
+15) Deployment
+
+    => AWS Server
+
+    => CI / CD Process
+
+
+16) Unit Test Cases
+
+
+17) Debugging
+
+
+18) Life Cycle Hooks
+
+
+19) 3rd party API Integration
+
+    => GMAIL Integration / FaceBook Integration / Payment Gateways
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
