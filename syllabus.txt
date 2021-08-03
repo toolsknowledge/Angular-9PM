@@ -117,6 +117,201 @@
 
 
 
+Introduction 
+============
+
+    - Angular is the Framework.
+
+    - Angular is the JavaScript Framework.
+
+    - Angular Given by Google.
+
+    - Angular Categorized into 3 Flavours.
+
+            1) AngularJS
+
+            2) Angular2
+
+            3) Angular Material
+
+    - AngularJS, used to develop the web applications by using JavaScript.
+
+    - JavaScript is the Object Based Scripting Language.
+
+    - JavaScript won't follows the OOPS.
+
+    - Angular2 used to build the web applications by using TypeScript.
+
+    - TypeScript is the programming language given by microsoft.
+
+    - TypeScript follows the OOPS.
+
+    - Current Version of Angular2 is "Angular12".
+
+    - Angular Material used to apply Rich UI to web applications as well as mobile applications.
+
+    - Angular follows the MVC Design Pattern.
+
+            M - Model
+
+            V - View
+
+            C - Component
+
+    - TypeScript variables behaves like Model.
+
+            Ex.
+                    var data = "data from database soon....";
+
+                    where "data" is the model.
+
+    - HTML,HTML5,Python,"Angular Material",ReactJS,PERL,.....behaves like View.
+
+    - classes behaves like Component.
+
+
+    Ex.
+         class FirstComponent{
+
+         };
+
+         where "FirstComponent" is the Component in MVC Design Pattern.
+
+
+
+
+Installation
+************
+
+1) download and install "NodeJS"
+
+    => NodeJS offers different tools like
+
+            1) npm
+
+            2) npx
+
+            3) node
+
+            4) nodemon
+
+            ----
+            ----
+            ----
+
+    => npm stands for node packaging manager.
+
+    => npm helps to install Angular.
+
+
+website : https://nodejs.org/en/
+
+file    : node-v16.6.1-x64.msi
+
+
+2) install "yarn" tool
+
+    yarn tool given by FaceBook.
+
+    yarn tool, used to download the 3rd party libraries.
+
+    we will install yarn tool by using following command.
+
+    > npm install -g yarn
+
+    - "-g" stands for global installation.
+
+
+3) install "Angular Cli".
+
+
+    - Cli stands for command line interface
+
+    - Cli helps to create the angular applications
+
+
+    > npm install -g @angular/cli
+
+
+4) link the "yarn" tool "cli" tool
+
+    > ng config --global cli.packageManager yarn
+
+
+5) download and install Visual Studio Code
+
+    website : https://code.visualstudio.com/docs/?dv=win
+
+    file    : VSCodeUserSetup-x64-1.58.2.exe
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
