@@ -252,6 +252,119 @@ file    : node-v16.6.1-x64.msi
 
 
 
+steps to create the first angular application
+*********************************************
+
+1) create angular application
+
+    > ng new firstApp
+
+        where "firstApp" is the name of the angular application
+
+
+2) switch to angular application
+
+    > cd firstApp
+
+3) execute the angular application
+
+    > ng s -o
+
+    s stands for "serve"
+
+    "-o" stands for open the "default browser"
+
+    default port number of angular application is "4200"
+
+
+
+Directory Structure of Angular Application
+******************************************
+
+1) e2e
+
+    e2e stands for end to end.
+
+    e2e Directory helps to write the end to end test cases
+
+
+2) node_modules
+
+    it containes libraries.
+
+    these libraries helps to execute the angular application
+
+3) src / app
+
+    - it is used to deploy our applications.
+
+            => Directives
+
+            => services
+
+            => Components
+
+            => single page applications
+
+                ----
+                ----
+                ----
+
+    - we should register our applications in "app.module.ts" file.
+
+    - "app.module.ts" file called as registration file / default module file.   
+
+
+4) src / app / app.component.ts
+               app.component.html
+               app.component.css
+               app.component.spec.ts         
+
+
+    - when ever we create the angular application, automatically AppComponent is the default component
+
+5) src / assets
+
+        - it is used to deploy the static resources
+
+        Ex.
+            images
+
+            xml files
+
+            json files
+
+
+
+6) src / environments
+
+    - used to define the application level members.
+
+
+7) src / favicon.ico
+
+    - this logo representing default logo of angular.
+
+8) src / index.html
+
+    - angular Framework starts the execution from index.html file
+
+    - index.html file called as main template.
+
+
+9) main.ts
+
+    main.ts file acting as interface file between module and template
+
+    angular Framework starts the execution from "index.html" file
+
+    "index.html" file immidiately executes the "main.ts" file.
+
+    "main.ts" file immidiately executes the "app.module.ts" file
+
+    "app.module.ts" file containes our applications registrations.
+
+    based on our applications registrations, angular Framework will execute applications. 
 
 
 
@@ -279,7 +392,9 @@ file    : node-v16.6.1-x64.msi
 
 
 
- 
+
+
+
 
 
 
