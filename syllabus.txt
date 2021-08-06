@@ -283,179 +283,184 @@ Directory Structure of Angular Application
 
 1) e2e
 
-    e2e stands for end to end.
+    => e2e stands for end to end
 
-    e2e Directory helps to write the end to end test cases
+    => e2e directory used to write the end to end test cases
 
 
 2) node_modules
 
-    it containes libraries.
+    => node_modules containes libraries.
 
-    these libraries helps to execute the angular application
+    => these libraries helps to execute the angular application.
+
 
 3) src / app
 
-    - it is used to deploy our applications.
+    => used to deploy angular applications
 
-            => Directives
+    Ex.
+        Components
 
-            => services
+        Directives
 
-            => Components
+        Services
 
-            => single page applications
+        Pipes
 
-                ----
-                ----
-                ----
-
-    - we should register our applications in "app.module.ts" file.
-
-    - "app.module.ts" file called as registration file / default module file.   
-
+        ---
+        ---
+        ---
 
 4) src / app / app.component.ts
                app.component.html
                app.component.css
-               app.component.spec.ts         
+               app.component.spec.ts
 
 
-    - when ever we create the angular application, automatically AppComponent is the default component
+    - when ever we create the angular application automatically "AppComponent" is the default component
 
-5) src / assets
 
-        - it is used to deploy the static resources
+5) src / app / app.module.ts
 
-        Ex.
-            images
+    - app.module.ts file is the registration file.
 
-            xml files
+    - app.module.ts file is the default module.
 
-            json files
+    - this registration file used to register the components, directives , pipes , services,.......
 
 
+6) src /  assets
 
-6) src / environments
+    - used to deploy the static resources
 
-    - used to define the application level members.
+    Ex.
+        images
 
+        xml files
 
-7) src / favicon.ico
+        json files
 
-    - this logo representing default logo of angular.
+        ---
+        ---
+        ---
 
-8) src / index.html
+7) src / environments
 
-    - angular Framework starts the execution from index.html file
+    - used to define the context level members
 
-    - index.html file called as main template.
 
+8) src / favicon.ico
 
-9) main.ts
+    - Representing default logo of angular
 
-    main.ts file acting as interface file between module and template
 
-    angular Framework starts the execution from "index.html" file
+9) src / index.html
 
-    "index.html" file immidiately executes the "main.ts" file.
+    - angular Framework starts the execution from "index.html" file.
 
-    "main.ts" file immidiately executes the "app.module.ts" file
+    - "index.html" file called as "main" template.
 
-    "app.module.ts" file containes our applications registrations.
 
-    based on our applications registrations, angular Framework will execute applications. 
+10) src / main.ts
 
+    - main.ts file acting as interface between "index.html" file to "app.module.ts" file.
 
+    - angular starts the execution from "index.html" file.
 
+    - "index.html" immidiately invokes the "main.ts" file.
 
+    - "main.ts" file immidiately invokes the "app.module.ts" file.
 
+    - "app.module.ts" file containes our applications registrations.
 
+    - based on our applications registrations, angular will execute.
 
 
+11) src / polyfills.ts
 
+    - it is used to convert the TypeScript to Equalent JavaScript.
 
 
+12) src / styles.css
 
+    - used to define the global styles.
 
+13) src / test.ts
 
+    - Representing the sample testing file.
 
 
+14) .browserslistrc
 
+    - containes supporting browsers of angular applications.
 
 
+15) .editorconfig
 
+    - this file related to VSCode
 
 
+16) .gitignore
 
+    avoids the libraries to repositories
 
 
+17) angular.json
 
+    describes the directory Structure of angular application.
 
 
+18) karma.conf.js
 
+    in general, we will write unit test cases by using "karma" tool
 
+    "karma.conf.js" file is the configuration file of "karma" tool
 
+19) package.json
 
+    it containes libraries related information
 
 
+20) tsconfig.app.json
+    tsconfig.json
+    tsconfig.spec.json
 
+        - These files are TypeScript configuration files.
 
 
 
+21) tslint.json
 
+    - used to validate the application.
 
 
 
+Component
+*********
+    - Reusable Portion of "Complex UI" Called as Component.
 
+    - we can create "more than" one component.
 
+    - as a angular developer we can provide "communication" between components.
 
+    - angular applications are "component" based applications.
 
+    - because of components "code" reusablility is high in angular applications.
 
+    - TypeScript "class" behaves like Component.
 
 
+************************************************
+componentApp
+           src
+             app
+                first.component.ts
+                first.component.html
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                app.module.ts
+             index.html
+**********************************************
 
 
 
