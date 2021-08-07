@@ -463,6 +463,40 @@ componentApp
 **********************************************
 
 
+********************************************************
+componentsApp
+            src
+              app
+                frontend.component.ts
+                frontend.component.html
+
+                backend.component.ts
+                backend.component.html
+
+                database.component.ts
+                database.component.html
+
+                mean.component.ts
+                mean.component.html
+
+                app.module.ts
+             index.html
+*******************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
