@@ -500,7 +500,54 @@ serviceApp
             app.module.ts
          index.html
 ************************************************************
-          
+
+
+
+***********************************************************
+serviceEx1
+         src
+           app
+             services
+                 second.service.ts
+                 first.service.ts
+
+             component
+                 demo.component.ts
+                 demo.component.html
+             
+             app.module.ts
+           index.html
+***********************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
