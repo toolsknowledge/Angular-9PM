@@ -520,6 +520,43 @@ serviceEx1
 ***********************************************************
 
 
+                            Rest API Calls
+                            **************
+
+    - HttpClientModule is the Predefined module, helps to make the rest api calls.
+
+    - HttpClient is the Predefined class helps to make the Rest API Calls.
+
+    - HttpClientModule and HttpClient available in @angular/common/http package.
+
+
+***************************************
+httpGetEx
+        src
+          app
+            services
+               countries.service.ts
+
+            component
+                countries.component.ts
+                countries.component.html
+
+            app.module.ts
+          index.html
+*****************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
