@@ -545,6 +545,237 @@ httpGetEx
           index.html
 *****************************************
 
+                                Login Application
+                                *****************
+
+MongoDB
+=======
+    - MongoDB is the "NoSQL" database.
+
+    - MongoDB Supports "JSON".
+
+    - MongoDB is "light" weight database.
+
+    - default port number of MongoDB database is "27017"
+
+    - MongoDB Supports the Cloud in the form of a "MongoDB Atlas"
+
+
+SQL                                         NoSQL
+***********************************************************************************
+Ex.
+    Oracle                              MongoDB
+
+    MySQL                               CassandraDB
+
+    SQLServer                           RabbitMQ
+
+
+tables                                  collections
+
+records                                 documents
+
+primary key                             _id
+
+databases                               databases
+************************************************************************************
+
+database name           :           angular9pm
+
+collection name         :           login_details
+
+user name               :           admin
+
+password                :           admin
+
+connection url          :           mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/angular9pm?retryWrites=true&w=majority
+
+
+
+Node Server
+***********
+
+    - NodeJS is the "backend" technology.
+
+    - NodeJS, used to develop the "servers".
+
+    - we will develop NodeJS Applications with the help of "JavaScript".
+
+    - NodeJS, supports the modules / libraries.
+
+    - we will download above modules by using either "npm" tool or "yarn" tool.
+
+1) express
+
+    - express, used to develop the rest services.
+
+    Ex.
+        GET
+        POST
+        PUT
+        DELETE
+        ---
+        ---
+        ---
+
+2) mongodb
+
+    - mongodb library used to connect to mongodb database.
+
+
+3) body-parser
+
+    - body-parser module, used to receive the data from client application.
+
+
+4) cors
+
+    - used to enable the communication between ports.
+
+    - enabling the communication between ports called as cors policy
+
+
+=> create the folder
+
+    Ex.
+            server
+
+
+=> switch to server folder
+
+    > cd server
+
+=> download the node modules
+
+    > yarn add express mongodb cors body-parser
+
+=> create the node application
+
+    > server.js
+
+
+=> start the node server
+
+    > node server
+
+=> test the rest api by using Postman
+
+    > http://localhost:8080/login   (POST)
+
+
+************
+frontend
+************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
