@@ -1,0 +1,15 @@
+<input type="email"
+       [(ngModel)]="login_details.email">
+
+<br><br>
+
+<input type="password"
+       [(ngModel)]="login_details.password">
+
+<br><br>
+
+<button (click)="login()">Login</button>
+
+<br><br>
+
+<h1>{{result | json}}</h1>

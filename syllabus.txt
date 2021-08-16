@@ -667,6 +667,53 @@ Node Server
 frontend
 ************
 
+=> create the angular application
+
+    > ng new loginApp
+
+
+=> switch to angular application
+
+    > cd loginApp
+
+
+=> create the service
+
+    > ng g s services/login --skip-tests
+
+    g stands for generate
+
+    s stands for service
+
+    --skip-tests means skip the unit test cases
+
+    finally "LoginService" is ready with "loginFn()"
+
+
+=> create the component
+
+    > ng g c components/login --skip-tests -is --selector=login --flat true
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
