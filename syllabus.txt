@@ -695,6 +695,38 @@ frontend
     > ng g c components/login --skip-tests -is --selector=login --flat true
 
 
+backend deployment
+******************
+1) push server code to github
+
+
+2) create the application in "aws" server
+
+
+3) create the CI / CD Process
+
+    => Ngserver-env.eba-p7i3kpke.ap-south-1.elasticbeanstalk.com/login
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
