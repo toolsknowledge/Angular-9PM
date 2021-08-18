@@ -709,6 +709,108 @@ backend deployment
 
 
 
+frontend deployment
+*******************
+
+1) configure cloud rest api call
+
+
+2) download and install aws cli tool
+
+website : https://aws.amazon.com/cli/
+
+file    : AWSCLIV2.msi
+
+3) prepare the production build
+
+    > ng build --prod=true
+
+
+4) move the dist folder to aws s3 bucket
+
+    bucket policy
+    *************
+    {
+                "Version": "2012-10-17",
+                "Statement": [
+                        {
+                        "Sid": "PublicReadGetObject",
+                        "Effect": "Allow",
+                        "Principal": "*",
+                        "Action": [
+                                "s3:GetObject"
+                        ],
+                        "Resource": [
+                                "arn:aws:s3:::angularclassex/*"
+                        ]
+                        }
+                ]
+	}
+
+5) create the credentials to upload angular application
+
+    IAM
+
+
+6) modify the package.json file
+
+    scripts : {
+
+        "aws-deploy":"aws s3 sync dist/loginApp/ s3://angularclassex"
+
+    }
+
+
+7) execute the following commands
+
+        > aws configure
+
+        > ng build && npm run aws-deploy
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

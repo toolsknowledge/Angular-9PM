@@ -3,7 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  LOGIN_URL : "http://Ngserver-env.eba-p7i3kpke.ap-south-1.elasticbeanstalk.com/login"
 };
 
 /*
