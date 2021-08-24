@@ -769,6 +769,62 @@ file    : AWSCLIV2.msi
 
 
 
+                                RxJS
+                                ****
+    - RxJS Stands for Reactive Extension JavaScript.
+
+    - RxJS library helps to make Asynchronous Calls.
+
+
+> cd restAPICalls
+
+> npm install
+
+> node server
+
+
+=> http://localhost:8080/restapi1
+
+=> http://localhost:8080/restapi2/rxjs
+
+
+*************************************
+app-one
+    
+      restAPI1Model
+
+      restAPI2Model
+
+      restAPI1Service
+
+      restAPI2Service
+
+      forkJoinComponent
+***************************************
+
+
+
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
