@@ -1,0 +1,19 @@
+<input type="text" (keyup)="search($event)">
+
+<br><br>
+
+<table border="1"
+       align="center">
+  <thead>
+    <tr>
+      <th>Label</th>
+      <th>Image</th>
+    </tr>
+  </thead>      
+  <tbody>
+      <tr *ngFor="let book of arr">
+          <td>{{book.volumeInfo.title}}</td>
+          <td><img width="100px" height="100px" src={{book.volumeInfo.imageLinks.thumbnail}}></td>  
+      </tr>
+  </tbody>
+</table>

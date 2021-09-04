@@ -1,0 +1,23 @@
+RxJS
+****
+    => Reactive Extension JavaScript.
+
+    => Used to handle the Asynchronous Data Eazily.
+
+
+*****************************
+map
+concatAll
+concatMap
+*****************************
+
+map
+mergeAll
+mergeMap
+
+*****************************
+
+map
+switchAll
+switchMap
+*********************************
