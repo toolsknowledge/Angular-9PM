@@ -804,6 +804,28 @@ app-one
 
 
 
+                                    Single Page Application
+
+    - loading one component to another component without refreshing the whole webpage called as Single page application.
+
+    - navigation of one component to another component called as Routing.
+
+    - RouterModule helps to implement the Single page Applications.
+
+step 1.
+    create the components
+
+    
+
+
+
+    
+
+
+
+
+
+
 
 
       
