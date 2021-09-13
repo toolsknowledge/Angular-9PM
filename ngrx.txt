@@ -1,0 +1,79 @@
+1) store
+
+2) reducer
+
+3) state
+
+4) initialState
+
+5) effects
+
+6) selector
+
+7) action
+
+8) dispatch
+
+9) subscribe
+
+10) payload
+
+
+store
+*****
+    - main component of state management.
+
+    - store internally accomidates the reducer and initialState also.
+
+
+reducer
+*******
+    - business logic available in reducer.
+
+
+state
+*****
+    reducer output called as state
+
+initialState
+************
+    reducer defualt value called as initialState
+
+
+effects
+*******
+    effects mainly for RxJS.
+
+
+selector
+********
+    component subscribes with the help of selector.
+
+
+
+action
+******
+    user instructions called as action.
+
+
+dispatch
+********
+    requesting the "store" for "state" called as dispatch
+
+
+subscribe
+*********
+    getting the "state" from "store"
+
+
+payload
+*******
+    sending the data from component to action called as payload.
+
+
+
+=> @ngrx/store
+
+
+
+
