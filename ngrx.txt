@@ -77,3 +77,253 @@ payload
 
 
 
+
+
+----------------------------------------------------
+step 1.
+    create the angular project
+
+    > ng new example1
+
+
+step 2.
+    switch to angular project
+
+    > cd example1
+
+
+step 3.
+    download @ngrx/store
+
+    > yarn add @ngrx/store
+
+
+step 4.
+    create the actions
+
+*****************************************
+example1
+       src
+         app
+           counter.actions.ts
+*****************************************
+
+finally following custom actions are ready.
+
+    => increment
+
+    => decrement
+
+    => reset
+
+
+
+step 5.
+    create the reducer
+
+
+*********************************************
+example1
+       src
+         app
+           counter.reducer.ts
+*********************************************
+
+    finally counterReducer is ready
+
+
+step 6.
+    create the store
+
+    app.module.ts
+
+    finally "count" selector is ready
+
+
+
+step 7.
+    dispatch & subscribe operations in AppComponent
+
+
+
+
+
+*************************************************************************
+example2
+       src
+         app
+           bank.actions.ts
+*************************************************************************
+
+    finally "deposit" & "withdraw" actions ready.
+
+
+
+********************************************************************
+example2
+       src
+         app
+           bank.reducer.ts
+*******************************************************************
+
+
+****************************************************************
+example2
+       src
+         app
+           app.module.ts
+****************************************************************
+    finally "bank" selector created successfully
+
+    we will use "bank" selector to perform dispatch and subscribe operations
+
+
+=====================================================================
+
+*************************************
+example3
+       src
+         app
+           login.actions.ts
+*************************************
+    finally "login" action is ready
+
+
+
+************************************
+example3
+       src
+         app
+           login.reducer.ts
+***********************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
