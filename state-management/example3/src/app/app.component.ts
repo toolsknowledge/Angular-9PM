@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
-import { login } from './login.actions';
+import { login } from './actions/login.action';
 
 @Component({
   selector: 'app-root',
@@ -8,26 +8,24 @@ import { login } from './login.actions';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'example3';
-  constructor(private store:Store<any>){
+    title:any;
+    constructor(private store:Store<any>){}
+
+    ngOnInit(){
       
-  }
-
-  ngOnInit(){
-     this.store.select("bank").subscribe((res)=>{
-        console.log(res);
-     })
-  }
-
-  clickMe(){
-     this.store.dispatch(login({username:"ashok",password:"ashokit"}))
-  }
+    }
 
 
+    myFun(){
+      this.store.select("login").subscribe((posRes)=>{
+        this.title = posRes;
+      })
+    }
 
-
-
-
+    loginFn(arg1,arg2){
+       this.store.dispatch(login({username:arg1,password:arg2}))
+       this.myFun();
+    }
 
 
 }

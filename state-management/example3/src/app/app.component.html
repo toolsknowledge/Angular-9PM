@@ -1,1 +1,7 @@
-<button (click)="clickMe()">ClickMe</button>
+<input type="text" #uname> <br><br>
+<input type="password" #upwd> <br><br>
+
+
+<button (click)="loginFn(uname.value,upwd.value)">Login</button>
+
+<h1>{{title | json}}</h1>

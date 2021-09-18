@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { StoreModule } from '@ngrx/store';
 
 import { AppComponent } from './app.component';
-import { loginReducer } from './login.reducer';
+import { loginReducer } from './reducer/login.reducer';
 
 @NgModule({
   declarations: [
