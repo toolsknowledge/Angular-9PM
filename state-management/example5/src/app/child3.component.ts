@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { changeLabel, customData } from './counter.actions';
-import { selector2 } from './counter.selector';
+import { selector1, selector2 } from './counter.selector';
 import counterState from './counter.state';
 
 @Component({
@@ -22,7 +22,7 @@ export class Child3Component implements OnInit {
   _subscription(){
       console.log("child3 component subscription");
       this.store.select(selector2).subscribe((posRes:any)=>{
-         console.log("child3");
+         console.log("child3 subscription");
          this.msg = posRes;
       })
   }

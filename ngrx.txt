@@ -205,7 +205,20 @@ example3
 
 
 
+****************************************
+example6
 
+
+================================
+accounts
+      accounts.model.ts
+      accounts.state.ts
+      accounts.actions.ts
+      accounts.reducer.ts
+      accounts.selector.ts
+      accounts.component.ts
+      accounts.component.html
+=================================
 
 
 
@@ -245,6 +258,51 @@ example3
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+store dev tools
+****************
+
+1) add chrome extension
+
+Redux DevTools
+
+
+2) yarn add @ngrx/store-devtools
+
+
+3) StoreDevtoolsModule.instrument({ logOnly: environment.production })
+
+
+
+*****************************************************
+credit
+         credit.model.ts
+
+         credit.state.ts
+
+         credit.action.ts
+
+         credit.reducer.ts
+
+         credit.selector.ts
+
+         credit.component.ts
+         credit.component.html
+*******************************************************
 
 
 
