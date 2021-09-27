@@ -1,0 +1,3 @@
+//ngrx
+//products
+//mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/ngrx?retryWrites=true&w=majority

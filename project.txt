@@ -1,0 +1,220 @@
+DataBase
+********
+
+1) MySQL / SQLServer
+
+
+MySQL DataBase CRUD Operations
+******************************
+
+> create database ngrx;
+
+
+> use ngrx;
+
+
+> create table products(p_name varchar(20),p_cost number(6),rating number(6),image varchar(100));
+
+> insert into products values('shirt1',100,2.5,'https://mernclassbucket.s3.us-east-2.amazonaws.com/p1.jpg');
+
+                ------
+                ------
+                ------
+                ------
+
+> select * from products;
+
+
+***********************************
+user : root
+
+password : admin
+
+database name : ngrx
+
+table name : products
+
+host : localhost
+***********************************
+
+
+2) create the server folder
+
+
+3) switch to server directory
+
+    > cd server
+
+
+4) download the node modules
+
+    => express
+
+    => mysql
+
+    => cors
+
+    > yarn add express mysql cors
+
+5) implement the rest api's
+
+        ***************************************
+        server
+           db_properties.js
+
+           db_connection.js
+
+           fetch.js
+
+           addproduct.js
+
+           updateproduct.js
+
+           deleteproduct.js
+
+           server.js
+        ***************************************
+
+
+
+Integration of Rest API'S to Angular Application with NgRx
+----------------------------------------------------------
+
+1) create the angular application
+
+    > ng new project
+
+2) switch to angular application
+
+    > cd project
+
+
+3) download node modules
+
+    > @ngrx/stores
+
+    > @ngrx/effects
+
+
+    > yarn add @ngrx/stores @ngrx/effects
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+==================================================
+Project1
+
+Forms
+    Template Driven Forms
+
+    Reactive Forms
+
+Directives
+
+Hooks
+
+Angular Material
+
+Payment Gateways / GMAIL Integration
+===================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
