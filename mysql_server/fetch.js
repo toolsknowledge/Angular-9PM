@@ -4,7 +4,18 @@ let connection = db_connection.getConnection();
 connection.connect();
 const express = require("express");
 const fetch = express.Router();
-fetch.get("/",(req,res)=>{
+
+const authMiddleware = (req,res,next)=>{
+    let allHeaders = req.headers;
+    if(allHeaders.token == "ashokit"){
+        next();
+    }else{
+        res.send({"msg":"auth error"})
+    };
+}
+
+
+fetch.get("/",[authMiddleware],(req,res)=>{
     connection.query(`select * from products`,
             (err,records,fields)=>{
         if(err) {

@@ -99,6 +99,33 @@ Integration of Rest API'S to Angular Application with NgRx
     > yarn add @ngrx/stores @ngrx/effects
 
 
+4) implement the NgRx with effects
+
+
+    **************************************************
+    project
+          src
+            app
+              fetch
+                 actions
+                   fetch.actions.ts
+                 effects
+                   fetch.effects.ts
+                 reducer
+                    fetch.reducer.ts
+                 selector
+                    fetch.selector.ts
+                 module
+                    fetch.module.ts
+                 components
+                    fetch.component.ts
+                    fetch.component.html
+                 service
+                    fetch.service.ts     (completed)
+    *****************************************************
+
+
+
 
 
 
