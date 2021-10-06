@@ -3,6 +3,8 @@ import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule } from '@angular/router';
+import { EffectsModule } from '@ngrx/effects';
+import { StoreModule } from '@ngrx/store';
 
 import { AppComponent } from './app.component';
 import AuthInterceptor from './common/intreceptor/auth.intreceptor';
@@ -15,13 +17,11 @@ import AuthInterceptor from './common/intreceptor/auth.intreceptor';
   imports: [
     BrowserModule,
     HttpClientModule,
-    RouterModule.forRoot([{path:"",loadChildren:()=>import("./fetch/module/fetch.module").then(obj=>obj.FetchModule)}])
+    EffectsModule.forRoot([]),
+    StoreModule.forRoot({}),
+    RouterModule.forRoot([{path:"",loadChildren:()=>import("./products/module/product.module").then(m=>m.ProductsModule)}])
   ],
-  providers: [{
-    provide:HTTP_INTERCEPTORS,
-    useClass:AuthInterceptor,
-    multi:true
-  }],
+  providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
