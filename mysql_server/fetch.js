@@ -15,7 +15,7 @@ const authMiddleware = (req,res,next)=>{
 }
 
 
-fetch.get("/",[authMiddleware],(req,res)=>{
+fetch.get("/",(req,res)=>{
     connection.query(`select * from products`,
             (err,records,fields)=>{
         if(err) {

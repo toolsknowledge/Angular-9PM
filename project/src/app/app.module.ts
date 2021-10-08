@@ -19,7 +19,9 @@ import AuthInterceptor from './common/intreceptor/auth.intreceptor';
     HttpClientModule,
     EffectsModule.forRoot([]),
     StoreModule.forRoot({}),
-    RouterModule.forRoot([{path:"",loadChildren:()=>import("./products/module/product.module").then(m=>m.ProductsModule)}])
+    RouterModule.forRoot([{path:"",
+                           loadChildren:()=>import("./products/module/product.module").then(m=>m.ProductsModule)}
+                         ])
   ],
   providers: [],
   bootstrap: [AppComponent]
